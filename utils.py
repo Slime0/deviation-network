@@ -15,7 +15,8 @@ import numpy as np
 from sklearn.metrics import auc,roc_curve, precision_recall_curve, average_precision_score, roc_auc_score
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
-from sklearn.externals.joblib import Memory
+# from sklearn.externals.joblib import Memory
+from joblib import Memory
 from sklearn.datasets import load_svmlight_file
 
 mem = Memory("./dataset/svm_data")
@@ -67,7 +68,8 @@ import numpy as np
 from sklearn.metrics import auc,roc_curve, precision_recall_curve, average_precision_score, roc_auc_score
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
-from sklearn.externals.joblib import Memory
+# from sklearn.externals.joblib import Memory
+from joblib import Memory
 from sklearn.datasets import load_svmlight_file
 
 mem = Memory("./dataset/svm_data")
